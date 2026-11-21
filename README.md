@@ -30,7 +30,7 @@ No web server, node, or npm dependencies required!
 
 ### Option 2: Run Local Python Server & REST API
 ```bash
-python server.py
+python local_server.py
 ```
 Then visit **`http://localhost:8000`** in your browser.
 
@@ -127,7 +127,7 @@ Automata_simulator/
 │   ├── automata_models.py       # Formal 6-tuple classes in Python
 │   ├── converter.py             # Conversion algorithms with audit trail in Python
 │   └── test_converter.py        # Pytest test suite with 100% test pass rate
-├── server.py                    # Lightweight Python HTTP server & REST API
+├── local_server.py                    # Lightweight Python HTTP server & REST API
 ├── generate_report_pdf.py       # Publication-ready PDF report generator using ReportLab
 ├── CSET302_Topic14_Mealy_Moore_Simulator_Report.pdf  # Generated 3-page academic report
 └── README.md                    # Project documentation
