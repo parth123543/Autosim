@@ -1,0 +1,8 @@
+
+server.py
+python_core/
+generate_report_pdf.py
+requirements.txt
+__pycache__/
+*.pyc
+
